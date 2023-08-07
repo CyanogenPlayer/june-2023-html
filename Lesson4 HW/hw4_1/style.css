@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: 600;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section, article {
+    width: 20vw;
+    border: 1px solid lightgray;
+}
+
+section, article, form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 10vw;
+    height: 7vh;
+    margin-top: 35px;
+    background-image: url("img.png");
+    background-size: cover;
+}
+
+form {
+    margin-top: 35px;
+}
+
+.inputText {
+    width: 17vw;
+    height: 3vh;
+    margin-top: 5px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: 500;
+}
+
+.submitButton {
+    width: 17.3vw;
+    height: 3vh;
+    margin-top: 10px;
+    background-color: #79B4F4;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+p {
+    margin: 10px;
+}
+
+section a {
+    text-decoration: none;
+    color: #3C5181;
+}
+
+.secondaryLink {
+    font-size: small;
+    margin-bottom: 20px;
+}
+
+article {
+    margin-top: 10px;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+article a {
+    text-decoration: none;
+    color: #57A3F1;
+}
+
+.icon {
+    width: 25px;
+    height: 25px;
+    vertical-align: text-top;
+}

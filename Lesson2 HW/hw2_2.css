@@ -1,0 +1,21 @@
+.main {
+    width: 100%;
+    height: 200px;
+    background-color: bisque;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sub {
+    width: 100px;
+    height: 100px;
+    background-color: indianred;
+    transition: 1s;
+}
+
+.sub:hover {
+    background-color: gray;
+    border-radius: 50%;
+    transition: 1s;
+}

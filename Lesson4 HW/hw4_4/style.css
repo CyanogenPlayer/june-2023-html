@@ -1,0 +1,28 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: Oswald, sans-serif;
+}
+
+section {
+    width: 47vw;
+}
+
+.firstSection {
+    text-align: center;
+}
+
+.secondSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.image {
+    width: 432px;
+    height: 358px;
+    background-image: url("image 1.svg");
+    background-size: cover;
+}

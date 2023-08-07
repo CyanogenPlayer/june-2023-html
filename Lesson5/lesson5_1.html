@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+	      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Lesson 5</title>
+	<link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+	<style>
+		/*div li {*/
+		/*	color: cornflowerblue;*/
+		/*}*/
+
+		/*div ul li {*/
+		/*	color: darkcyan;*/
+		/*}*/
+
+		/*.list li {*/
+		/*	color: cyan;*/
+		/*}*/
+
+		/*------------------------------------------------------*/
+
+		/*div > ul > li {*/
+		/*	color: cornflowerblue;*/
+		/*}*/
+
+        /*------------------------------------------------------*/
+
+		ul > li:nth-child(odd) {
+			color: cornflowerblue;
+		}
+
+        ul > li:nth-child(even) {
+            color: darkcyan;
+        }
+
+        ul > li:nth-child(4n /*кожен 4-й елемент*/) {
+            color: cyan;
+        }
+
+        ul > li:nth-child(2n+4 /*кожен 2-й елемент починаючи з 4*/) {
+            color: blue;
+        }
+
+        ul > li:last-child {
+            color: red;
+        }
+
+        ul > li:first-child {
+            color: green;
+        }
+
+        ul > li:first-letter {
+            color: orange;
+	        font-size: 40px;
+        }
+
+		li::after {
+			content: "!!!";
+		}
+
+		li {
+			list-style: none;
+		}
+
+		li::before {
+			content: "";
+			display: inline-block;
+			width: 10px;
+			height: 10px;
+			background-image: url("favicon-32x32.png");
+			background-size: cover;
+			margin-right: 10px;
+		}
+	</style>
+</head>
+<body>
+	<div class="list">
+		<ul class="redList">
+			<li>Lorem ipsum dolor.</li>
+			<li>Lorem ipsum dolor.</li>
+			<li>Lorem ipsum dolor.</li>
+			<li>Lorem ipsum dolor.</li>
+			<li>Lorem ipsum dolor.</li>
+			<li>Lorem ipsum dolor.</li>
+			<li>Lorem ipsum dolor.</li>
+		</ul>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci aliquam culpa cupiditate delectus ea explicabo illum impedit laborum laudantium minima neque nesciunt obcaecati officiis optio reprehenderit sapiente sed, ut.</p>
+	</div>
+</body>
+</html>

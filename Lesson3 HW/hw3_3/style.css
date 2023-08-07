@@ -1,0 +1,57 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+}
+
+section {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#red {
+    background-color: indianred;
+    justify-content: flex-start;
+}
+
+#blue {
+    background-color: dodgerblue;
+}
+
+#green {
+    background-color: palegreen;
+}
+
+.textBox {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    margin: 10px 0;
+    font-size: 50px;
+    font-weight: normal;
+}
+
+.textBox article {
+	width: 95vw;
+    margin: 10px 0;
+    text-align: center;
+    font-size: 30px;
+}
+
+section a {
+    margin: 0;
+    text-decoration: none;
+    color: black;
+    font-size: 60px;
+}

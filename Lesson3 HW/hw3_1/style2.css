@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+
+body {
+    margin: 0;
+}
+
+nav {
+    background-color: #D9D9D9;
+}
+
+main {
+    display: flex;
+    width: 100vw;
+    height: 90vh;
+}
+
+section {
+    width: 33.4%;
+    height: 100%;
+}
+
+.lightgray {
+    background: linear-gradient(0deg, #A9A8A8 0%, #A9A8A8 100%), #A9A8A8;
+}
+
+.gray {
+    background: linear-gradient(0deg, #817B7B 0%, #817B7B 100%), #A9A8A8;
+}
+
+.darkgray {
+    background: linear-gradient(0deg, #544F4F 0%, #544F4F 100%), #A9A8A8;
+}
+
+footer {
+    background-color: #B8B3B3;
+}
+
+nav, footer {
+    width: 100vw;
+    height: 5vh;
+}
+
+nav, section, footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 30px;
+}
+

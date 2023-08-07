@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    background-color: darkcyan;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkcyan;
+    font-family: 'Raleway', sans-serif;
+}
+
+.formBox {
+    width: 33vw;
+    height: 40vh;
+    background-color: white;
+    border-radius: 12px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EBF3F3;
+    border-radius: 12px 12px 0 0;
+    font-size: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputText {
+    width: 25vw;
+    height: 4vh;
+    margin-top: 20px;
+    border: 1px solid gray;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+}
+
+form div {
+    width: 25vw;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.submitButton {
+    width: 120px;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+}

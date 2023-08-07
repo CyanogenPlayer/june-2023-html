@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+}
+
+header {
+    width: 100vw;
+    height: 30vh;
+    background-color: cornflowerblue;
+}
+
+main {
+    display: flex;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.content > section {
+    width: 70vw;
+    height: 35vh;
+    background-color: coral;
+}
+
+.content > div {
+    width: 70vw;
+    display: flex;
+}
+
+.content > div > section {
+    width: 33.4%;
+    height: 35vh;
+    background-color: crimson;
+}
+
+main > section {
+    width: 30vw;
+    height: 70vh;
+    background-color: cadetblue;
+}
+
+header, section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
